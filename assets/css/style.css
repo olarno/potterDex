@@ -1,0 +1,21 @@
+.true {
+  display: block;
+}
+.false{
+  display: none;
+}
+.badges {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wand {
+  padding: 0;
+  list-style-type: none;
+}
