@@ -1,3 +1,7 @@
+body {
+  background-color: #FDE9D2;
+  justify-content: center;
+}
 .true {
   display: block;
 }
@@ -9,7 +13,9 @@
   justify-content: space-around;
   margin: 5px;;
 }
-
+.card{
+  width: 33%;
+}
 .card-content {
   display: flex;
   justify-content: space-around;
@@ -18,4 +24,15 @@
 .wand {
   padding: 0;
   list-style-type: none;
+}
+
+.review {
+  display: flex;
+  justify-content: center;
+}
+
+.profile_picture {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
